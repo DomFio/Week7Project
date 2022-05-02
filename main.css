@@ -1,0 +1,66 @@
+body{
+    background-image: url(images/sky.jpg) ;
+}
+
+#inputs{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    position:fixed;
+    left: 44vw;
+    top: 38vh;
+    /* padding-top: 20%; */
+    /* padding-left: 40%; */
+}
+
+#wtables{
+    position:fixed;
+    top: 45vh;
+    left: 39vw;
+    max-width: 33%;
+    /* max-width: 70%;
+    padding-left: 30%; */
+}
+#high{
+    background: red;
+    color: white;
+    width: 5vw;
+}
+#low{
+    background: rgb(17, 0, 255);
+    color: white;
+    width: 5vw;
+}
+#forecast{
+    background: teal;
+    color: white;
+    width: 5vw;
+}
+#humidity{
+    background: rgb(20, 172, 20);
+    color: white;
+    width: 5vw;
+    
+}
+
+#cityName{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+}
+
+.submitButton{
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    border-radius: 40%;
+    position:fixed;
+    left: 35vw;
+    top: 38vh;
+}
+
+.clearButton{
+    position: fixed;
+    top: 38vh;
+    left: 56vw;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    border-radius: 40%;
+}
